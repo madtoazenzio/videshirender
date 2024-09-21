@@ -13,7 +13,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6891428437"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://madtoazenzio:f9oDLc4c6H5zdP44@devutty.pk5so.mongodb.net/?retryWrites=true&w=majority&appName=devutty")
 DB_NAME = os.environ.get("DATABASE_NAME", "codeflix_bots")
 
 #Shortner (token system) 
@@ -30,7 +30,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002231278815"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}, Thanks for using me :D @team_netflix ⚡️.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}, Thanks for using me :D  ⚡️.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6891428437").split()):
