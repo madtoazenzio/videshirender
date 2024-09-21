@@ -3,13 +3,13 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7599287095:AAGjhP5SNEAY8oCoHZPamF6sxEv6mUUE3Lg")
+APP_ID = int(os.environ.get("APP_ID", "7236453"))
+API_HASH = os.environ.get("API_HASH", "33010a70e94f80e55145980072cce969")
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002436226291"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6497757690"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6891428437"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
@@ -33,7 +33,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}, Thanks for using me :D @team_netflix ⚡️.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6497757690").split()):
+    for x in (os.environ.get("ADMINS", "6891428437").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -54,7 +54,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6497757690)
+ADMINS.append(6891428437)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
