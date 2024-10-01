@@ -139,7 +139,7 @@ async def start_command(client: Client, message: Message):
         elif verify_status['is_verified']:
             reply_markup = InlineKeyboardMarkup(
                 [[InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                  InlineKeyboardButton('🍁 sᴇʀɪᴇsғʟɪx', url='https://t.me/Team_Netflix/40')]]
+                  InlineKeyboardButton('🍁', url='https://t.me/zooistore')]]
             )
             await message.reply_text(
                 text=START_MSG.format(
@@ -174,7 +174,7 @@ async def start_command(client: Client, message: Message):
         
 #=====================================================================================##
 
-WAIT_MSG = """"<b>Processing ...</b>"""
+WAIT_MSG = """"<b>Fetching Files 🌚....</b>"""
 
 REPLY_ERROR = """<code>Use this command as a replay to any telegram message with out any spaces.</code>"""
 
