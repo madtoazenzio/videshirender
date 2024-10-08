@@ -10,13 +10,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='https://t.me/prndevika_bot'>SUBARU</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/zooistore'>🌚</a>\n○ ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Team_Netflix'>ᴛᴇᴀᴍ ɴᴇᴛғʟɪx</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/otakuflix_network'>ᴏᴛᴀᴋᴜғʟɪx ɴᴇᴛᴡᴏʀᴋ</a>\n○ ᴀɴɪᴍᴇ ᴄʜᴀᴛ : <a href='https://t.me/weebzonex'>ᴡᴇᴇʙ ᴢᴏɴᴇ</a></b>",
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='https://t.me/prndevika_bot'>SUBARU</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/zooistore'>🌚</a>\n𝗕𝗼𝘁 𝗩𝗲𝗿𝗶𝘀𝗶𝗼𝗻:- 4.0♡︎</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
                     InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('🍁 ᴘʀᴇᴍɪᴜᴍ', url='https://t.me/prndevika_bot')
+                    InlineKeyboardButton('🍁 ᴘʀᴇᴍɪᴜᴍ', url='https://t.me/zooistore_premium/29')
                     ]
                 ]
             )
