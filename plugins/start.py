@@ -64,7 +64,7 @@ async def start_command(client: Client, message: Message):
             await update_verify_status(id, is_verified=True, verified_time=time.time())
             if verify_status["link"] == "":
                 reply_markup = None
-            await message.reply(f"Your token successfully verified and valid for: 24 Hour🌸", reply_markup=reply_markup, protect_content=False, quote=True)
+            await message.reply(f"𝗬𝗼𝘂𝗿 𝗧𝗼𝗸𝗲𝗻 𝗜𝘀 𝗦𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆 𝗩𝗲𝗿𝗶𝗳𝗶𝗲𝗱 𝗙𝗼𝗿: 24𝗛𝗼𝘂𝗿𝘀 🌸", reply_markup=reply_markup, protect_content=False, quote=True)
 
         elif len(message.text) > 7 and verify_status['is_verified']:
             try:
@@ -94,7 +94,7 @@ async def start_command(client: Client, message: Message):
                     ids = [int(int(argument[1]) / abs(client.db_channel.id))]
                 except:
                     return
-            temp_msg = await message.reply("Fetching Files 🌚....")
+            temp_msg = await message.reply("𝘍𝘦𝘵𝘤𝘩𝘪𝘯𝘨 𝘍𝘪𝘭𝘦𝘴 🌚....")
             try:
                 messages = await get_messages(client, ids)
             except:
@@ -174,7 +174,7 @@ async def start_command(client: Client, message: Message):
         
 #=====================================================================================##
 
-WAIT_MSG = """"<b>Fetching Files 🌚....</b>"""
+WAIT_MSG = """"<b>𝘍𝘦𝘵𝘤𝘩𝘪𝘯𝘨 𝘍𝘪𝘭𝘦𝘴 🌚....</b>"""
 
 REPLY_ERROR = """<code>Use this command as a replay to any telegram message with out any spaces.</code>"""
 
