@@ -30,7 +30,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002231278815"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello 👋 {first}, Thanks for using me :D  ⚡️.")
+START_MSG = os.environ.get("START_MESSAGE", "𝖧𝖾𝗅𝗅𝗈 👋 {first}, 𝖳𝗁𝖺𝗇𝗄𝗌 𝖥𝗈𝗋 𝖴𝗌𝗂𝗇𝗀 𝖬𝖾 :𝖣  ⚡️.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6891428437").split()):
@@ -42,7 +42,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• 🌸 •</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "𝘛𝘩𝘪𝘴 𝘷𝘪𝘥𝘦𝘰/𝘗𝘩𝘰𝘵𝘰/𝘢𝘯𝘺𝘵𝘩𝘪𝘯𝘨 𝘪𝘴 𝘢𝘷𝘢𝘪𝘭𝘢𝘣𝘭𝘦 𝘰𝘯 𝘵𝘩𝘦 𝘪𝘯𝘵𝘦𝘳𝘯𝘦𝘵. 𝘞𝘦 𝘰𝘳 𝘪𝘵𝘴 𝘴𝘶𝘣𝘴𝘪𝘥𝘪𝘢𝘳𝘺 𝘤𝘩𝘢𝘯𝘯𝘦𝘭 𝘥𝘰𝘦𝘴𝘯'𝘵 𝘱𝘳𝘰𝘥𝘶𝘤𝘦 𝘢𝘯𝘺 𝘰𝘧 𝘵𝘩𝘦𝘮☀︎︎")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
