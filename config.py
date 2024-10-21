@@ -3,26 +3,26 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7599287095:AAGpwSxCAWasoJYMCktPFV3yxl41EyBPvmo")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7944481456:AAHk5ZtiFHM0bmDr8esFIFC5hg8P2GyO6a4")
 APP_ID = int(os.environ.get("APP_ID", "7236453"))
 API_HASH = os.environ.get("API_HASH", "33010a70e94f80e55145980072cce969")
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002436226291"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002319985549"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6891428437"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://madtoazenzio:f9oDLc4c6H5zdP44@devutty.pk5so.mongodb.net/?retryWrites=true&w=majority&appName=devutty")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://videshi:videshi@videshi.wtffv.mongodb.net/?retryWrites=true&w=majority&appName=videshi")
 DB_NAME = os.environ.get("DATABASE_NAME", "codeflix_bots")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "droplink.co")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "ba9397cf73004a7d5236f014af404ed712ca1544")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "36ac726770f0492bb40f1ac8144703c49fdef866")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/howtoopen88/5") 
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/howtoopen88/6") 
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002231278815"))
